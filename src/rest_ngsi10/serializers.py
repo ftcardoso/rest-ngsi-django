@@ -85,7 +85,7 @@ class ContextSerializer(serializers.BaseSerializer):
             for field in fields:
                 if isinstance(field, ManyToManyField):
                     result.append({
-                        'value': [str(i) for i in getattr(obj, field.name).all()],
+                        'value': [get_value(i) for i in getattr(obj, field.name).all()],
                         'type': 'array',
                         'name': field.name, 
                     })
