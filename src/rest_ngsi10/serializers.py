@@ -75,7 +75,9 @@ class ContextSerializer(serializers.BaseSerializer):
                 # return value
             elif value == None:
                 return value
-            return unicode(value)
+            elif isinstance(value, basestring):
+                return u'%s' % value
+            return u'%s' % str(value).decode('UTF-8')
 
         def get_attributes(obj):
             result = []
