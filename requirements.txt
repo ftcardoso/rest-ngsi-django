@@ -1,0 +1,6 @@
+django
+jsonschema
+djangorestframework
+djangorestframework-jsonp
+django_object_hooks
+isodate

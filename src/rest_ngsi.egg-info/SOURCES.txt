@@ -1,0 +1,17 @@
+src/rest_ngsi.egg-info/PKG-INFO
+src/rest_ngsi.egg-info/SOURCES.txt
+src/rest_ngsi.egg-info/dependency_links.txt
+src/rest_ngsi.egg-info/not-zip-safe
+src/rest_ngsi.egg-info/requires.txt
+src/rest_ngsi.egg-info/top_level.txt
+src/rest_ngsi10/__init__.py
+src/rest_ngsi10/consts.py
+src/rest_ngsi10/models.py
+src/rest_ngsi10/pagination.py
+src/rest_ngsi10/schemas.py
+src/rest_ngsi10/serializers.py
+src/rest_ngsi10/utils.py
+src/rest_ngsi10/views.py
+src/rest_ngsi10/viewsets.py
+src/rest_ngsi10/migrations/0001_initial.py
+src/rest_ngsi10/migrations/__init__.py
